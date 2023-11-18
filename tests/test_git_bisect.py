@@ -11,3 +11,9 @@ def test_assert_value():
     a_string = "1"
     assert a_number == 1
     assert a_number == "1"
+
+def test_assert_existence():
+    a_number = 1
+    a_string = "1"
+    assert a_number
+    assert a_string
